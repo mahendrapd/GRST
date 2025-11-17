@@ -1,0 +1,395 @@
+targetclass='Benign'
+--------------------
+Threshold = 0.871
+Ambiguous Samples: 21706
+
+Training Performance
+TP= 236481 	TN= 7271 	FP= 634 	FN= 15955
+(0.9368, 0.0802, 0.9973, 0.9661, 0.9363)
+
+Testing Performance
+TP= 78897 	TN= 2328 	FP= 218 	FN= 5338
+(0.9366, 0.0856, 0.9972, 0.966, 0.936)
+
+print(f"{outer_key}: {acount}, {ncount}, {len(outer_value.items())}")
+Flow Duration: 0, 9, 10
+Total Fwd Packets: 39, 12, 77
+Total Backward Packets: 0, 42, 45
+Fwd Packets Length Total: 1, 4, 12
+Bwd Packets Length Total: 0, 32, 34
+Fwd Packet Length Max: 0, 28, 44
+Fwd Packet Length Mean: 6, 15, 45
+Fwd Packet Length Std: 1, 17, 45
+Bwd Packet Length Max: 2, 11, 30
+Bwd Packet Length Mean: 1, 5, 17
+Bwd Packet Length Std: 5, 4, 32
+Flow Bytes/s: 45, 1, 93
+Flow Packets/s: 4, 5, 39
+Flow IAT Mean: 0, 3, 4
+Flow IAT Std: 0, 9, 10
+Flow IAT Max: 0, 10, 11
+Flow IAT Min: 0, 7, 8
+Fwd IAT Total: 0, 9, 10
+Fwd IAT Mean: 0, 3, 4
+Fwd IAT Std: 0, 9, 10
+Fwd IAT Max: 0, 10, 11
+Fwd IAT Min: 0, 7, 8
+Bwd IAT Total: 0, 0, 101
+Bwd IAT Mean: 0, 15, 101
+Bwd IAT Std: 0, 10, 101
+Bwd IAT Max: 0, 2, 101
+Bwd IAT Min: 0, 27, 101
+Fwd Header Length: 83, 0, 89
+Bwd Header Length: 0, 8, 9
+Fwd Packets/s: 10, 1, 46
+Bwd Packets/s: 0, 17, 35
+Packet Length Max: 0, 24, 48
+Packet Length Mean: 0, 10, 22
+Packet Length Std: 0, 11, 32
+Packet Length Variance: 0, 7, 12
+Avg Packet Size: 0, 9, 23
+Avg Fwd Segment Size: 6, 15, 45
+Avg Bwd Segment Size: 1, 5, 17
+Subflow Fwd Packets: 39, 12, 77
+Subflow Fwd Bytes: 1, 4, 12
+Subflow Bwd Packets: 0, 42, 45
+Subflow Bwd Bytes: 0, 33, 35
+Init Fwd Win Bytes: 0, 25, 101
+Init Bwd Win Bytes: 0, 18, 101
+Fwd Act Data Packets: 45, 7, 71
+Fwd Seg Size Min: 1, 2, 6
+Active Mean: 1, 22, 96
+Active Std: 0, 25, 93
+Active Max: 0, 20, 100
+Active Min: 1, 35, 96
+Idle Mean: 0, 7, 8
+Idle Std: 0, 8, 9
+Idle Max: 0, 8, 9
+Idle Min: 0, 7, 8
+
+
+targetclass='DDoS'
+------------------
+Threshold=0.085
+Ambiguous Samples: 24667
+
+Training Performance:
+TP= 664 	TN= 252612 	FP= 7056 	FN= 9
+(0.9866, 0.0272, 0.086, 0.1582, 0.9729)
+
+Testing Performance:
+TP= 164 	TN= 84262 	FP= 2346 	FN= 9
+(0.948, 0.0271, 0.0653, 0.1222, 0.9729)
+
+Flow Duration: 7, 0, 8
+Total Fwd Packets: 14, 35, 73
+Total Backward Packets: 44, 0, 45
+Fwd Packets Length Total: 4, 0, 12
+Bwd Packets Length Total: 35, 0, 36
+Fwd Packet Length Max: 42, 0, 45
+Fwd Packet Length Mean: 36, 0, 46
+Fwd Packet Length Std: 42, 0, 44
+Bwd Packet Length Max: 20, 0, 30
+Bwd Packet Length Mean: 9, 1, 18
+Bwd Packet Length Std: 12, 1, 34
+Flow Bytes/s: 2, 39, 92
+Flow Packets/s: 5, 4, 39
+Flow IAT Mean: 4, 0, 5
+Flow IAT Std: 6, 0, 7
+Flow IAT Max: 8, 0, 9
+Flow IAT Min: 7, 0, 8
+Fwd IAT Total: 7, 0, 8
+Fwd IAT Mean: 4, 0, 5
+Fwd IAT Std: 6, 0, 7
+Fwd IAT Max: 8, 0, 9
+Fwd IAT Min: 7, 0, 8
+Bwd IAT Total: 22, 0, 101
+Bwd IAT Mean: 59, 0, 101
+Bwd IAT Std: 42, 0, 101
+Bwd IAT Max: 28, 0, 101
+Bwd IAT Min: 83, 0, 101
+Fwd Header Length: 0, 84, 92
+Bwd Header Length: 7, 0, 8
+Fwd Packets/s: 1, 8, 45
+Bwd Packets/s: 17, 0, 34
+Packet Length Max: 41, 0, 51
+Packet Length Mean: 12, 0, 23
+Packet Length Std: 16, 0, 34
+Packet Length Variance: 9, 0, 14
+Avg Packet Size: 11, 0, 25
+Avg Fwd Segment Size: 36, 0, 46
+Avg Bwd Segment Size: 9, 1, 18
+Subflow Fwd Packets: 14, 35, 73
+Subflow Fwd Bytes: 4, 0, 12
+Subflow Bwd Packets: 44, 0, 45
+Subflow Bwd Bytes: 36, 0, 37
+Init Fwd Win Bytes: 86, 0, 101
+Init Bwd Win Bytes: 92, 0, 101
+Fwd Act Data Packets: 11, 43, 70
+Fwd Seg Size Min: 2, 1, 6
+Active Mean: 83, 0, 95
+Active Std: 83, 0, 93
+Active Max: 88, 0, 100
+Active Min: 83, 0, 95
+Idle Mean: 6, 0, 7
+Idle Std: 6, 0, 7
+Idle Max: 6, 0, 7
+Idle Min: 4, 0, 5
+
+targetclass='DoS'
+-----------------
+Threshold: 0.085
+Ambiguous Samples: 8082
+
+Training Performance: 
+TP= 4707 	TN= 251342 	FP= 3515 	FN= 777
+(0.8583, 0.0138, 0.5725, 0.6869, 0.9835)
+
+Testing Performance:
+TP= 1566 	TN= 83763 	FP= 1181 	FN= 271
+(0.8525, 0.0139, 0.5701, 0.6833, 0.9833)
+
+Flow Duration: 8, 0, 9
+Total Fwd Packets: 67, 0, 69
+Total Backward Packets: 47, 0, 49
+Fwd Packets Length Total: 11, 0, 12
+Bwd Packets Length Total: 39, 0, 41
+Fwd Packet Length Max: 37, 0, 42
+Fwd Packet Length Mean: 38, 0, 47
+Fwd Packet Length Std: 37, 0, 44
+Bwd Packet Length Max: 13, 2, 30
+Bwd Packet Length Mean: 7, 0, 18
+Bwd Packet Length Std: 8, 1, 34
+Flow Bytes/s: 79, 0, 94
+Flow Packets/s: 16, 0, 38
+Flow IAT Mean: 3, 0, 4
+Flow IAT Std: 8, 0, 9
+Flow IAT Max: 9, 0, 10
+Flow IAT Min: 6, 0, 7
+Fwd IAT Total: 8, 0, 9
+Fwd IAT Mean: 3, 0, 4
+Fwd IAT Std: 8, 0, 9
+Fwd IAT Max: 9, 0, 10
+Fwd IAT Min: 6, 0, 7
+Bwd IAT Total: 4, 0, 101
+Bwd IAT Mean: 42, 0, 101
+Bwd IAT Std: 9, 0, 101
+Bwd IAT Max: 10, 0, 101
+Bwd IAT Min: 78, 0, 101
+Fwd Header Length: 86, 0, 87
+Bwd Header Length: 8, 0, 9
+Fwd Packets/s: 20, 0, 44
+Bwd Packets/s: 15, 0, 35
+Packet Length Max: 30, 1, 47
+Packet Length Mean: 12, 0, 23
+Packet Length Std: 13, 0, 33
+Packet Length Variance: 8, 0, 13
+Avg Packet Size: 11, 0, 24
+Avg Fwd Segment Size: 38, 0, 47
+Avg Bwd Segment Size: 7, 0, 18
+Subflow Fwd Packets: 67, 0, 69
+Subflow Fwd Bytes: 11, 0, 12
+Subflow Bwd Packets: 47, 0, 49
+Subflow Bwd Bytes: 41, 0, 43
+Init Fwd Win Bytes: 96, 0, 101
+Init Bwd Win Bytes: 84, 0, 101
+Fwd Act Data Packets: 61, 0, 62
+Fwd Seg Size Min: 5, 0, 6
+Active Mean: 85, 0, 98
+Active Std: 79, 0, 93
+Active Max: 86, 0, 101
+Active Min: 85, 0, 97
+Idle Mean: 6, 0, 7
+Idle Std: 7, 0, 8
+Idle Max: 7, 0, 8
+Idle Min: 6, 0, 7
+
+targetclass='Infiltration'
+--------------------------
+Threshold: 0.053
+Ambiguous Samples: 6889
+
+Training Performance:
+TP= 2 	TN= 253629 	FP= 6709 	FN= 1
+(0.6667, 0.0258, 0.0003, 0.0006, 0.9742)
+
+Testing Performance:
+TP= 0 	TN= 84434 	FP= 2346 	FN= 1
+(0.0, 0.027, 0.0, 0, 0.973)
+
+Flow Duration: 7, 0, 8
+Total Fwd Packets: 64, 0, 68
+Total Backward Packets: 40, 0, 44
+Fwd Packets Length Total: 8, 0, 12
+Bwd Packets Length Total: 35, 0, 38
+Fwd Packet Length Max: 41, 0, 44
+Fwd Packet Length Mean: 36, 0, 46
+Fwd Packet Length Std: 38, 0, 45
+Bwd Packet Length Max: 25, 0, 29
+Bwd Packet Length Mean: 12, 0, 17
+Bwd Packet Length Std: 27, 0, 34
+Flow Bytes/s: 90, 0, 94
+Flow Packets/s: 23, 0, 39
+Flow IAT Mean: 3, 0, 4
+Flow IAT Std: 7, 0, 8
+Flow IAT Max: 8, 0, 9
+Flow IAT Min: 7, 0, 8
+Fwd IAT Total: 7, 0, 8
+Fwd IAT Mean: 3, 0, 4
+Fwd IAT Std: 7, 0, 8
+Fwd IAT Max: 8, 0, 9
+Fwd IAT Min: 7, 0, 8
+Bwd IAT Total: 0, 0, 101
+Bwd IAT Mean: 39, 0, 101
+Bwd IAT Std: 44, 0, 101
+Bwd IAT Max: 21, 0, 101
+Bwd IAT Min: 49, 0, 101
+Fwd Header Length: 84, 0, 85
+Bwd Header Length: 7, 0, 8
+Fwd Packets/s: 28, 0, 46
+Bwd Packets/s: 23, 0, 35
+Packet Length Max: 47, 0, 51
+Packet Length Mean: 13, 0, 22
+Packet Length Std: 29, 0, 33
+Packet Length Variance: 13, 0, 14
+Avg Packet Size: 16, 0, 25
+Avg Fwd Segment Size: 36, 0, 46
+Avg Bwd Segment Size: 12, 0, 17
+Subflow Fwd Packets: 64, 0, 68
+Subflow Fwd Bytes: 8, 0, 12
+Subflow Bwd Packets: 40, 0, 44
+Subflow Bwd Bytes: 37, 0, 40
+Init Fwd Win Bytes: 20, 0, 101
+Init Bwd Win Bytes: 20, 0, 101
+Fwd Act Data Packets: 66, 0, 69
+Fwd Seg Size Min: 5, 0, 6
+Active Mean: 30, 1, 98
+Active Std: 28, 0, 94
+Active Max: 23, 1, 101
+Active Min: 41, 1, 97
+Idle Mean: 7, 0, 8
+Idle Std: 7, 0, 8
+Idle Max: 7, 0, 8
+Idle Min: 6, 0, 7
+
+targetclass='Webattack'
+-----------------------
+Threshold: 0.5
+Ambigious sample: 0
+
+Training Performance:
+TP= 0 	TN= 260233 	FP= 108 	FN= 0
+(0, 0.0004, 0.0, 0, 0.9996)
+
+Testing Performance:
+TP= 0 	TN= 86744 	FP= 37 	FN= 0
+(0, 0.0004, 0.0, 0, 0.9996)
+
+targetclass='Portscan'
+----------------------
+Threshold: 0.5
+Ambigious Samples: 0
+
+Training Performance:
+TP= 0 	TN= 260197 	FP= 144 	FN= 0
+(0, 0.0006, 0.0, 0, 0.9994)
+
+Testing Performance:
+TP= 0 	TN= 86737 	FP= 44 	FN= 0
+(0, 0.0005, 0.0, 0, 0.9995)
+
+
+targetclass='Botnet'
+-------------------
+Threshold: 0.5
+Ambigious Sample: 0
+
+Training Performance:
+TP= 0 	TN= 260218 	FP= 123 	FN= 0
+(0, 0.0005, 0.0, 0, 0.9995)
+
+Testing Performance:
+TP= 0 	TN= 86740 	FP= 41 	FN= 0
+(0, 0.0005, 0.0, 0, 0.9995)
+
+targetclass='Bruteforce'
+------------------------
+Threshold: 0.5
+Ambigious Sample: 0
+
+Training Performance:
+TP= 0 	TN= 260235 	FP= 106 	FN= 0
+(0, 0.0004, 0.0, 0, 0.9996)
+
+Testing Performance:
+TP= 0 	TN= 86748 	FP= 33 	FN= 0
+(0, 0.0004, 0.0, 0, 0.9996)
+
+
+Targetclass: 'Bruteforce', 'Botnet', 'Portscan', 'Webattack'
+------------------------------------------------------------
+Ambiguous Samples: 92
+Threshold: 0.029
+
+Training Performance: 
+TP= 17 	TN= 260210 	FP= 114 	FN= 0
+(1.0, 0.0004, 0.1298, 0.2298, 0.9996)
+
+Testing Performance:
+TP= 1 	TN= 86748 	FP= 32 	FN= 0
+(1.0, 0.0004, 0.0303, 0.0588, 0.9996)
+
+Flow Duration: 10, 0, 11
+Total Fwd Packets: 73, 0, 74
+Total Backward Packets: 45, 0, 46
+Fwd Packets Length Total: 10, 0, 11
+Bwd Packets Length Total: 35, 0, 36
+Fwd Packet Length Max: 32, 0, 45
+Fwd Packet Length Mean: 20, 4, 44
+Fwd Packet Length Std: 20, 1, 45
+Bwd Packet Length Max: 21, 0, 30
+Bwd Packet Length Mean: 10, 0, 15
+Bwd Packet Length Std: 20, 0, 30
+Flow Bytes/s: 72, 0, 92
+Flow Packets/s: 22, 0, 39
+Flow IAT Mean: 3, 0, 4
+Flow IAT Std: 9, 0, 10
+Flow IAT Max: 11, 0, 12
+Flow IAT Min: 7, 0, 8
+Fwd IAT Total: 10, 0, 11
+Fwd IAT Mean: 3, 0, 4
+Fwd IAT Std: 9, 0, 10
+Fwd IAT Max: 11, 0, 12
+Fwd IAT Min: 7, 0, 8
+Bwd IAT Total: 59, 0, 101
+Bwd IAT Mean: 78, 0, 101
+Bwd IAT Std: 95, 0, 101
+Bwd IAT Max: 71, 0, 101
+Bwd IAT Min: 78, 0, 101
+Fwd Header Length: 86, 0, 88
+Bwd Header Length: 7, 0, 8
+Fwd Packets/s: 28, 0, 45
+Bwd Packets/s: 21, 0, 35
+Packet Length Max: 35, 0, 49
+Packet Length Mean: 12, 0, 22
+Packet Length Std: 15, 0, 31
+Packet Length Variance: 9, 0, 14
+Avg Packet Size: 16, 0, 25
+Avg Fwd Segment Size: 20, 4, 44
+Avg Bwd Segment Size: 10, 0, 15
+Subflow Fwd Packets: 73, 0, 74
+Subflow Fwd Bytes: 10, 0, 11
+Subflow Bwd Packets: 45, 0, 46
+Subflow Bwd Bytes: 37, 0, 38
+Init Fwd Win Bytes: 89, 0, 101
+Init Bwd Win Bytes: 90, 0, 101
+Fwd Act Data Packets: 69, 0, 70
+Fwd Seg Size Min: 4, 0, 6
+Active Mean: 95, 0, 98
+Active Std: 88, 0, 92
+Active Max: 97, 0, 101
+Active Min: 96, 0, 98
+Idle Mean: 8, 0, 9
+Idle Std: 9, 0, 10
+Idle Max: 9, 0, 10
+Idle Min: 7, 0, 8
